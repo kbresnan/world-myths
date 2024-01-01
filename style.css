@@ -1,0 +1,89 @@
+* {
+    background: #282828;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #F5F5F5;
+    box-sizing: border-box;
+}
+
+.name {
+    font-family: Papyrus, Fantasy;
+    font-size: 500%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.margin {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-family: Papyrus, Fantasy;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.intro-title {
+  font-family: "Lucida Handwriting", Cursive;
+  font-size: 400%;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+p {
+  font-family: Garamond, Serif;
+  margin: 0;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.conc-title {
+  font-family: "Lucida Handwriting", Cursive;
+  font-size: 400%;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.copyright {
+  font-family: Garamond, Serif;
+  text-align: center;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  font-family: Garamond, Serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
